@@ -35,7 +35,7 @@ function sport(){
         dian.ya*=(dian.y>oc.height||dian.y<0)?-1:1;
         gc.beginPath();
         gc.fillStyle="#fff"
-        gc.arc(dian.x,dian.y,1,0,Math.PI*2);
+        gc.arc(dian.x,dian.y,2,0,Math.PI*2);
         gc.fill()
     })
 }
@@ -45,7 +45,6 @@ function sizeHW() {
     var w=document.documentElement.clientWidth;
     var h=document.documentElement.clientHeight
     body.style.width =  w+ "px";
-    body.style.height = h+ "px";
     oc.style.width =  w+ "px";
     oc.style.height = h+ "px";
 }
