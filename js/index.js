@@ -34,7 +34,7 @@ function sport(){
         dian.xa*=(dian.x>oc.width||dian.x<0)?-1:1;
         dian.ya*=(dian.y>oc.height||dian.y<0)?-1:1;
         gc.beginPath();
-        gc.fillStyle="#fff"
+        gc.fillStyle="#98c6fa"
         gc.arc(dian.x,dian.y,2,0,Math.PI*2);
         gc.fill()
     })
